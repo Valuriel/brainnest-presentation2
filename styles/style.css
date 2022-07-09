@@ -99,7 +99,14 @@ a:active {
     height: 2.5em;
     border: none;
     color: #E5e7eb;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.hero-banner-btn:hover {
+    border: 2px solid transparent;
+    color: #3882f6;
+    background-color: #E5e7eb;
 }
 
 /* Random Information Section Styling*/
@@ -212,7 +219,14 @@ a:active {
     height: 2.5em;
     border: solid #E5e7eb 2px;
     color: #E5e7eb;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.callToAction-btn > button:hover {
+    border: 2px solid transparent;
+    color: #3882f6;
+    background-color: #E5e7eb;
 }
 
 /*Footer Section Styling*/
