@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
+    padding: 2em 10em 0em 10em;
+}
+
+/* Header and Nav Styling */
+
+.logo, .navigation, .hero-banner, .callToAction-container, footer {
+    color: #f9faf8;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5000em;
+    padding-left: 5em;
+}
+
+header nav div {
+    display: flex;
+    position: relative;
+}
+
+header nav div h1 {
+    transform: translateY(-15%);
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    padding-right: 5em;
+}
+
+ul li {
+    padding-left: 2em;
+}
+
+a {
+    color: #E5e7eb;
+    font-size: 1.1250em;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+a:active {
+    text-decoration: underline;
+}
+
+/*Hero Banner Styling */
+
+.hero-banner {
+    background-color: #1f2937;
+    display: flex;
+    position: relative;
+    padding: 10em 7.5em;
+}
+
+.hero-banner-header {
+    font-size: 3em;
+}
+
+.hero-banner-subtext p {
+    font-size: 1.1250em;
+    letter-spacing: 1.5px;
+}
+
+.hero-banner-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3em;
+    background-color: grey;
+    width: 60%;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.hero-banner-btn {
+    margin-top: 1em;
+    border-radius: 0.5em;
+    background-color: #3882f6;
+    font-weight: bold;
+    width: 10em;
+    height: 2.5em;
+    border: none;
+    color: #E5e7eb;
+    cursor: pointer;
+}
+
+/* Random Information Section Styling*/
+
+.main-h2{
+    text-align: center;
+    background-color: #f9faf8;
+    font-weight: 700;
+    font-size: 2.25em;
+    color: #1f2937;
+    /*extend width of container*/
+    position: relative;
+    margin: 0 -9999rem;
+    padding: .25rem 9999rem;
+}
+
+.main-h2 > h2 {
+    margin-top: 1em;
+}
+
+.information-container {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*extend width of container*/
+    position: relative;
+    margin: 0 -9999rem;
+    padding: .25rem 9999rem;
+}
+
+.information-illustration {
+    display: flex;
+    height: 8em;
+    width: 8em;
+    border-radius: 10%;
+    border: solid #3882f6;
+    margin: 2em;
+}
+
+/* .information-subtext {
+    flex: 0 0 100%;
+} */
+
+
+/*Quote Section Styling*/
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 2.25em;
+    /*extend width of container*/
+    position: relative;
+    margin: 0 -9999rem;
+    padding: .25rem 9999rem;
+}
+
+.quote-text {
+    padding: 3em 0 3em 0;
+    width: 55%;
+}
+
+.quote-author {
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+/*CallToAction Section Styling*/
+
+.callToAction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+    position: relative;
+    margin: 0 -9999rem;
+    padding: .25rem 9999rem;
+}
+
+.callToAction-item-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882f6;
+    width: 50%;
+    height: 3em;
+    padding: 2em 0 2em 0;
+    margin: 4em 0 4em 0;
+    border-radius: 0.5em;
+}
+
+.callToAction-header, .callToAction-text {
+    padding-left: 4em;
+}
+
+.callToAction-btn {
+    align-self: flex-end;
+}
+
+.callToAction-btn > button {
+    margin-right: 2em;
+    border-radius: 0.5em;
+    background-color: #3882f6;
+    font-weight: bold;
+    width: 10em;
+    height: 2.5em;
+    border: solid #E5e7eb 2px;
+    color: #E5e7eb;
+    cursor: pointer;
+}
+
+/*Footer Section Styling*/
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    margin: 2em 0 2em 0;
+}
