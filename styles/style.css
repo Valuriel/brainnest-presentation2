@@ -87,7 +87,12 @@ a:active {
     background-color: grey;
     width: 60%;
     border-radius: 1em;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.hero-banner-image:hover {
+    transform: scale(1.1);
 }
 
 .hero-banner-btn {
@@ -145,7 +150,14 @@ a:active {
     border-radius: 10%;
     border: solid #3882f6;
     margin: 2em;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
+
+.information-illustration:hover {
+    transform: scale(1.2);
+}
+
 
 /* .information-subtext {
     flex: 0 0 100%;
